@@ -44,7 +44,7 @@ Now, initialize your nodes:
 If everying is completed without error, you should be able to start nodes now.  
 First, start bootnode:
 ```sh
-./bootnode.sh
+./start_bootnode.sh
 ```
 Then, in the other terminal(s), start nodes by doing:
 ```sh
