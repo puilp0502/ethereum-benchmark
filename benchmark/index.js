@@ -2,13 +2,13 @@ const fs = require('fs');
 
 const Web3 = require('web3');
 const loadContract = require('./contracts.js');
-const wallet = require('./wallet.js');
 
 
 console.log("Connecting to local RPC...");
 let web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8501"));
 console.log("Connected");
 
+const wallet = require('./wallet.js');
 web3.eth.accounts.wallet = wallet;
 console.log("Loaded accounts");
 
