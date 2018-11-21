@@ -60,5 +60,8 @@ node index.js
 ```
 Benchmark result will be stored in `results/` directory.
 
+# License
+This utility is licensed under MIT License - see LICENSE file for details.
+
 # Acknowledgements
 This utility is originally based on [the post](https://hackernoon.com/setup-your-own-private-proof-of-authority-ethereum-network-with-geth-9a0a3750cda8) written by Salanfe.
